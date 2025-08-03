@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004999;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #004999;
+}
+
+#toast {
+  display: none;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #ddffdd;
+  color: green;
+}
