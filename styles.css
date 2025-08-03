@@ -1,13 +1,21 @@
 body {
-  font-family: Arial, sans-serif;
-  padding: 2rem;
+  font-family: 'Inter', sans-serif;   /* Sets a clean, modern typeface */
+  background-color: #f0f4f8;          /* Soft light blue-gray background */
+  margin: 0;                          /* Removes default browser margin */
+  padding: 0;                         /* Removes default padding */
+  display: flex;                     /* Lets us use Flexbox for layout */
+  justify-content: center;           /* Centers form horizontally */
+  align-items: center;               /* Centers form vertically */
+  min-height: 100vh;                 /* Full-screen height */
 }
 
 form {
-  max-width: 400px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
+  background-color: white;           /* Gives the form a clean backdrop */
+  padding: 2rem;                     /* Adds space inside the form */
+  border-radius: 8px;                /* Smooths out the corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+  max-width: 400px;                  /* Keeps form from stretching too wide */
+  width: 100%;                       /* Allows it to scale on smaller screens */
 }
 
 label {
@@ -45,3 +53,7 @@ input:focus, textarea:focus {
   background-color: #ddffdd;
   color: green;
 }
+
+
+}
+
